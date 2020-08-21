@@ -15,11 +15,6 @@ function App() {
       <Switch>
         <Route
           exact
-          path='/'
-          render={props => <App  {...props}/>}
-        />
-        <Route
-          exact
           path='/about'
           render={props => <About  {...props}/>}
         />

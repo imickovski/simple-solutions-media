@@ -5,10 +5,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className='navbar'>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/strategy">Strategy</Link>
+        <Link to="/"><h4>Home</h4></Link>
+        <Link to="/about"><div>About</div></Link>
+        <Link to="/contact"><div>Contact</div></Link>
+        <Link to="/strategy"><div>Strategy</div></Link>
       </div>
     )
   }

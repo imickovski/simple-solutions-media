@@ -9,24 +9,26 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Simple Solutions Media</h1>
-      <Navbar />
+
+        <Navbar />
+
+        <h1>Simple Solutions Media</h1>
 
       <Switch>
         <Route
           exact
           path='/about'
-          render={props => <About  {...props}/>}
+          render={props => <About  {...props} />}
         />
         <Route
           exact
           path='/contact'
-          render={props => <Contact  {...props}/>}
+          render={props => <Contact  {...props} />}
         />
         <Route
           exact
           path='/strategy'
-          render={props => <Strategy  {...props}/>}
+          render={props => <Strategy  {...props} />}
         />
       </Switch>
 

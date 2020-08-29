@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="App">
 
-        <Navbar />
-
-        <h1>Simple Solutions Media</h1>
+      <Navbar />
 
       <Switch>
         <Route

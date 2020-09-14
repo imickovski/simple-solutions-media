@@ -6,12 +6,6 @@ body, html {
   background-size: cover;
 }
 
-/* .Home {
-  position: relative;
-  text-align: center;
-  color: aliceblue;
-} */
-
 .centered {
   position: absolute;
   top: 50%;
@@ -21,8 +15,37 @@ body, html {
   color: #e2a9a9;
 }
 
-.centered h1 {
-  background-color: rgb(71, 47, 11);
+.centered h1, h3 {
+  background-color: darkolivegreen;
+}
+
+.centered button {
+  /* height: 50px;
+  width: 150px; */
+  font-size: large;
+  color: #e2a9a9;
+  background-color: rgb(113, 151, 47);
+  border: darkred;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+	letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0 auto;
+	box-shadow: 0 6px #4f7228;
+  border-radius: 20px;
+}
+
+.centered button:hover {
+	box-shadow: 0 4px #4f7228;
+	top: 2px;
+}
+
+.centered button:active {
+	box-shadow: 0 0 #efa424;
+	top: 6px;
 }
 
 .navbar {

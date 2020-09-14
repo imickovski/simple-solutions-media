@@ -17,7 +17,7 @@ body, html {
 }
 
 .centered h1, h3 {
-  /* background-color:  rgb(113, 151, 47); */
+  background-color:  rgba(169, 255, 21, 0.301);
 }
 
 .centered button {
@@ -60,3 +60,9 @@ body, html {
   color: white;
   font-weight: bold;
 }
+
+.navbar div img {
+  width: 180px;
+  height: 120px;
+}
+

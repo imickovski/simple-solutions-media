@@ -32,7 +32,7 @@ body, html {
 	color: white;
   text-transform: uppercase;
 	letter-spacing: 2px;
-  padding: 25px 80px;
+  padding: 20px 40px;
   margin: 0 auto;
 	box-shadow: 0 6px #4f7228;
   border-radius: 20px;
@@ -62,7 +62,24 @@ body, html {
 }
 
 .navbar div img {
-  width: 180px;
-  height: 120px;
+  width: 60px;
+  height: 40px;
 }
 
+/* Contact Information */
+
+.Contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ContactInfo {
+  position: relative;
+  font-size: 30px;
+  color: #0d1604;
+  font-weight: bold;
+  background-color: rgba(151, 255, 151, 0.384);
+}

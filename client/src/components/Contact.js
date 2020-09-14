@@ -25,6 +25,9 @@ export default class Contact extends Component {
           <div>
             Tel: +49 163 879 8214
         </div>
+
+      {/* Place for Icons for Social Media */}
+
         </div>
       </div>
     )

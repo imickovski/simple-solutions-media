@@ -8,9 +8,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
 
-      <Navbar />
+      <div>
+        <Navbar />
+      </div>
+
+      <div className="centered">
+          <h1>START YOUR MARKETING JOURNEY</h1>
+          <button>Our Services</button>
+      </div>
 
       <Switch>
         <Route
@@ -30,7 +37,8 @@ function App() {
         />
       </Switch>
 
-    </div>
+      {/* </div> */}
+    </>
   );
 }
 

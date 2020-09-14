@@ -1,3 +1,30 @@
+body, html {
+  height: 100%;
+  background-image: url("https://mk0conklinmediasi07w.kinstacdn.com/wp-content/uploads/2018/03/testimonial-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .Home {
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+} */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #e2a9a9;
+}
+
+.centered h1 {
+  background-color: rgb(71, 47, 11);
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;

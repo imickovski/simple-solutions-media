@@ -6,11 +6,12 @@ export default class Navbar extends Component {
     return (
       <div className='navbar'>
         <div>[SSM]<hr></hr>
-          simple solutions media
+          Simple Solutions Media
         </div>
 
-        <div><Link to="/">Home</Link></div>
-        <div> <Link to="/about">About</Link></div>
+        <div><Link to="/">Services</Link></div>
+        <div><Link to="/">Solutions</Link></div>
+        <div><Link to="/about">About [SSM]</Link></div>
         <div><Link to="/contact">Contact</Link></div>
         <div><Link to="/strategy">Strategy</Link></div>
       </div>

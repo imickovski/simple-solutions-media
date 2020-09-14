@@ -6,30 +6,30 @@ body, html {
   background-size: cover;
 }
 
+/* This is the Main Sentence and the Button */
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #e2a9a9;
+  color: rgb(8, 88, 8);
 }
 
 .centered h1, h3 {
-  background-color: darkolivegreen;
+  /* background-color:  rgb(113, 151, 47); */
 }
 
 .centered button {
-  /* height: 50px;
-  width: 150px; */
-  font-size: large;
-  color: #e2a9a9;
-  background-color: rgb(113, 151, 47);
-  border: darkred;
   outline: none;
   border: none;
   cursor: pointer;
   display: block;
+  position: relative;
+  background: rgb(113, 151, 47);
+  font-size: 16px;
+  font-weight: 300;
+	color: white;
   text-transform: uppercase;
 	letter-spacing: 2px;
   padding: 25px 80px;
@@ -44,13 +44,19 @@ body, html {
 }
 
 .centered button:active {
-	box-shadow: 0 0 #efa424;
+	box-shadow: 0 0 #4f7228;
 	top: 6px;
 }
 
+/* This is the Navbar */
 .navbar {
   display: flex;
   justify-content: space-around;
   padding: 15px;
-  background-color: #e2a9a9;
+  background-color:  rgb(113, 151, 47);
+}
+
+.navbar div {
+  color: white;
+  font-weight: bold;
 }

@@ -8,39 +8,54 @@ import Main from './components/Main'
 import './App.css';
 
 function App() {
-  return (
-    <>
-      <div>
-        <Navbar />
-      </div>
+    return ( <
+            >
+            <
+            div >
+            <
+            Navbar / >
+            <
+            /div>
 
-      <Switch>
-      <Route
-          exact
-          path='/'
-          render={props => <Main  {...props} />}
-        />
+            <
+            Switch >
+            <
+            Route exact path = '/'
+            render = {
+                props => < Main {...props }
+                />} /
+                >
 
-        <Route
-          exact
-          path='/about'
-          render={props => <About  {...props} />}
-        />
-        <Route
-          exact
-          path='/contact'
-          render={props => <Contact  {...props} />}
-        />
-        <Route
-          exact
-          path='/strategy'
-          render={props => <Strategy  {...props} />}
-        />
-      </Switch>
+                <
+                Route
+                exact
+                path = '/about'
+                render = {
+                    props => < About {...props }
+                    />} /
+                    >
+                    <
+                    Route
+                    exact
+                    path = '/contact'
+                    render = {
+                        props => < Contact {...props }
+                        />} /
+                        >
+                        <
+                        Route
+                        exact
+                        path = '/strategy'
+                        render = {
+                            props => < Strategy {...props }
+                            />} /
+                            >
+                            <
+                            /Switch>
 
-      {/* </div> */}
-    </>
-  );
-}
+                            { /* </div> */ } <
+                            />
+                        );
+                    }
 
-export default App;
+                    export default App;

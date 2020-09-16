@@ -7,24 +7,24 @@ export default class Contact extends Component {
         <div className="ContactInfo">
           <div>
             How to Reach us
-        </div>
+          </div>
           <div>
             Our Headquarters
-        </div>
+          </div>
           <div>
             Simple Media Solutions
-        </div>
+          </div>
           <div>
             1000 Skopje
-        </div>
+          </div>
           <hr></hr>
           <div>
             Send Email here: <br></br>
-            ivan_mickovski@hotmail.com
-           </div>
+            simple.media.solutions@sms.com
+          </div>
           <div>
             Tel: +49 163 879 8214
-        </div>
+          </div>
 
       {/* Place for Icons for Social Media */}
 
@@ -33,3 +33,5 @@ export default class Contact extends Component {
     )
   }
 }
+
+

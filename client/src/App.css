@@ -1,85 +1,95 @@
-body, html {
-  height: 100%;
-  background-image: url("https://mk0conklinmediasi07w.kinstacdn.com/wp-content/uploads/2018/03/testimonial-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+body,
+html {
+    height: 100%;
+    background-image: url("https://mk0conklinmediasi07w.kinstacdn.com/wp-content/uploads/2018/03/testimonial-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
 }
+
 
 /* This is the Main Sentence and the Button */
+
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: rgb(8, 88, 8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(8, 88, 8);
 }
 
-.centered h1, h3 {
-  background-color:  rgba(169, 255, 21, 0.301);
+.centered h1,
+h3 {
+    background-color: rgba(169, 255, 21, 0.301);
 }
 
 .centered button {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  display: block;
-  position: relative;
-  background: rgb(113, 151, 47);
-  font-size: 16px;
-  font-weight: 300;
-	color: white;
-  text-transform: uppercase;
-	letter-spacing: 2px;
-  padding: 20px 40px;
-  margin: 0 auto;
-	box-shadow: 0 6px #4f7228;
-  border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background: rgb(113, 151, 47);
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    box-shadow: 0 6px #4f7228;
+    border-radius: 20px;
 }
 
 .centered button:hover {
-	box-shadow: 0 4px #4f7228;
-	top: 2px;
+    box-shadow: 0 4px #4f7228;
+    top: 2px;
 }
 
 .centered button:active {
-	box-shadow: 0 0 #4f7228;
-	top: 6px;
+    box-shadow: 0 0 #4f7228;
+    top: 6px;
 }
 
+
 /* This is the Navbar */
+
 .navbar {
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-  background-color:  rgb(113, 151, 47);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(113, 151, 47);
 }
 
 .navbar div {
-  color: white;
-  font-weight: bold;
+    color: white;
+    font-weight: bold;
 }
 
 .navbar div img {
-  width: 60px;
-  height: 40px;
+    width: 60px;
+    height: 40px;
 }
+
 
 /* Contact Information */
 
 .Contact {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .ContactInfo {
-  position: relative;
-  font-size: 30px;
-  color: #0d1604;
-  font-weight: bold;
-  background-color: rgba(151, 255, 151, 0.384);
+    position: relative;
+    font-size: 30px;
+    color: #0d1604;
+    font-weight: bold;
+    background-color: rgba(151, 255, 151, 0.384);
 }

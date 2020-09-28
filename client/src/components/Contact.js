@@ -45,10 +45,11 @@ export default class Contact extends Component {
           <div>
             Tel: +49 163 879 8214
           </div>
-          <ul>
-            <li><FaInstagram /></li>
-            <li><AiFillFacebook /></li>
-          </ul>
+
+          {/* Icons for Social Media */}
+            <FaInstagram />
+            <AiFillFacebook />
+
         </div>
         {/* Place for Icons for Social Media */}
 
@@ -68,8 +69,6 @@ export default class Contact extends Component {
             />
           </GoogleMapReact>
         </div>
-
-
       </div>
     )
   }

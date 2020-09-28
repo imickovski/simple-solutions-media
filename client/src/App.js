@@ -8,54 +8,42 @@ import Main from './components/Main'
 import './App.css';
 
 function App() {
-    return ( <
-            >
-            <
-            div >
-            <
-            Navbar / >
-            <
-            /div>
+    return (
+        <>
+            <div >
+                <Navbar />
+            </div>
 
-            <
-            Switch >
-            <
-            Route exact path = '/'
-            render = {
-                props => < Main {...props }
-                />} /
-                >
-
-                <
-                Route
-                exact
-                path = '/about'
-                render = {
-                    props => < About {...props }
-                    />} /
-                    >
-                    <
-                    Route
+            <Switch>
+                <Route
                     exact
-                    path = '/contact'
-                    render = {
-                        props => < Contact {...props }
+                    path='/'
+                    render={props => <Main {...props} />}
+                />
+
+                <Route
+                    exact
+                    path='/about'
+                    render={
+                        props => <About {...props}
                         />} /
-                        >
-                        <
-                        Route
-                        exact
-                        path = '/strategy'
-                        render = {
-                            props => < Strategy {...props }
-                            />} /
-                            >
-                            <
-                            /Switch>
+                >
+                <Route
+                    exact
+                    path='/contact'
+                    render={props => <Contact {...props} />}
+                />
+                <Route
+                    exact
+                    path='/strategy'
+                    render={props => <Strategy {...props} />}
 
-                            { /* </div> */ } <
-                            />
-                        );
-                    }
+                />
 
-                    export default App;
+            </Switch>
+
+        </>
+    );
+}
+
+export default App;

@@ -38,12 +38,7 @@ function App() {
                     path='/strategy'
                     render={props => <Strategy {...props} />}
                 />
-                <Route
-                    exact
-                    path='https://instagram.com/smsolutions.mk?igshid=11ukr6t1136en'
-                />
             
-
             </Switch>
 
         </>

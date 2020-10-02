@@ -66,8 +66,8 @@ h3 {
 }
 
 .navbar div {
-    color: white;
-    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 500px;
 }
 
 .navbar div img {

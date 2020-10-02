@@ -100,13 +100,24 @@ h3 {
 /* About Information */
 
 .about {
-    margin: 80px;
+    margin: 60px;
     display: flex;
     justify-content: space-around;
+    color: black;
+    background-color: rgba(151, 255, 151, 0.384);
+}
+
+.vission {
+    margin-right: 150px;
+}
+
+.mission {
+    margin-right: 150px;
 }
 
 .companyLogo img {
-    width: 460px;
-    height: 460px;
-    background-color: rgba(152, 222, 135, 0.644);
+    margin-top: 60px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(252, 252, 252, 0.959);
 }

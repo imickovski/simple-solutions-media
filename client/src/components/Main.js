@@ -8,9 +8,11 @@ export default class About extends Component {
         <h1>START YOUR MARKETING JOURNEY</h1>
         <h3>We are Marketing experts to support you on your way to digitalization. Together we generate added value from your data with the use of Artificial Intelligence.</h3>
         <Link to="/strategy"><button>Our Services</button></Link>
+        <br></br>
         <div>
-          PLACE FOR MORE CONTENT ON THE MAIN PAGE
+          PLACE FOR MORE TEXT AND CONTENT FOR THE MAIN PAGE
         </div>
+
       </div>
 
 

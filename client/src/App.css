@@ -1,29 +1,26 @@
-body,
 html {
     height: 100%;
     background-image: url("https://mk0conklinmediasi07w.kinstacdn.com/wp-content/uploads/2018/03/testimonial-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: aliceblue;
-    text-align: center;
-    font-weight: bold;
+    /* position: absolute; */
 }
 
 
 /* This is the Main Sentence and the Button */
 
 .centered {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin-top: 250px;
     text-align: center;
-    color: rgb(8, 88, 8);
+    color: black;
 }
 
-.centered h1,
-h3 {
+.centered h1{
     background-color: rgba(169, 255, 21, 0.301);
 }
 
@@ -31,8 +28,7 @@ h3 {
     outline: none;
     border: none;
     cursor: pointer;
-    display: block;
-    position: relative;
+    /* position: relative; */
     background: rgb(113, 151, 47);
     font-size: 16px;
     font-weight: 300;
@@ -55,6 +51,40 @@ h3 {
     top: 6px;
 }
 
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 350px;
+    margin-bottom: 300px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(https://www.bareinternational.com/wp-content/uploads/2018/04/AdobeStock_196313960-1030x407.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.firstContent {
+    padding: 120px;
+    background-color: rgba(0, 255, 255, 0.432);
+}
+
+.secondContent {
+    padding: 120px;
+    background-color: rgba(0, 0, 255, 0.418);
+}
+
+.thirdContent {
+    padding: 120px;
+  background-color: rgba(255, 166, 0, 0.356);
+}
+
+.forthContent {
+    padding: 120px;
+    background-color: rgba(222, 184, 135, 0.39);
+}
+
 
 /* This is the Navbar */
 
@@ -63,6 +93,10 @@ h3 {
     justify-content: space-around;
     padding: 15px;
     background-color: rgb(113, 151, 47);
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%;
 }
 
 .navbar div {
@@ -100,11 +134,12 @@ h3 {
 /* About Information */
 
 .about {
-    margin: 60px;
+    margin: 100px;
     display: flex;
     justify-content: space-around;
     color: black;
     background-color: rgba(151, 255, 151, 0.384);
+    text-align: center;
 }
 
 .vission {
@@ -120,4 +155,11 @@ h3 {
     width: 500px;
     height: 500px;
     background-color: rgba(252, 252, 252, 0.959);
+}
+
+/* Company Sevices */
+
+.services {
+    margin-top: 100px;
+    text-align: center;
 }

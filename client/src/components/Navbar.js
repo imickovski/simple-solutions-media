@@ -13,10 +13,10 @@ export default class Navbar extends Component {
           </div>
         </Link> */}
 
-        <div><Link to="/">[Simple Media Solutions]</Link></div>
-        <Link to="/about">About [SMS]</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/strategy">Strategy</Link>
+        <div><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>[Simple Media Solutions]</Link></div>
+        <Link to="/about" style={{ textDecoration: 'none', color: 'white'  }}>About [SMS]</Link>
+        <Link to="/contact" style={{ textDecoration: 'none', color: 'white'  }}>Contact</Link>
+        <Link to="/strategy" style={{ textDecoration: 'none', color: 'white'  }}>Strategy</Link>
 
 
       </div>

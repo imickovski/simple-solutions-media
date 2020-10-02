@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
+// import { Link } from 'react-router-dom';
 import GoogleMapReact from 'google-map-react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaInstagram } from 'react-icons/fa';
 import { AiFillFacebook } from 'react-icons/ai';
 
@@ -47,8 +46,8 @@ export default class Contact extends Component {
           </div>
 
           {/* Icons for Social Media */}
-            <FaInstagram />
-            <AiFillFacebook />
+          <a href="https://instagram.com/smsolutions.mk?igshid=11ukr6t1136en" ><FaInstagram /></a> 
+          <a href="/"><AiFillFacebook /></a>
 
         </div>
         {/* Place for Icons for Social Media */}

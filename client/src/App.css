@@ -96,3 +96,17 @@ h3 {
     background-color: rgba(151, 255, 151, 0.384);
     padding-top: 5%;
 }
+
+/* About Information */
+
+.about {
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.companyLogo img {
+    width: 460px;
+    height: 460px;
+    background-color: rgba(152, 222, 135, 0.644);
+}
